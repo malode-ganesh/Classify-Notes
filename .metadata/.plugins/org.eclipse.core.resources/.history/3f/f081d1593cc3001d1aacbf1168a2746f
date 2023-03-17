@@ -1,0 +1,36 @@
+package com.servlets;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.Date;
+
+import com.connectionProvider.ConnectionProvider;
+
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Part;
+
+public class UploadNoticeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	Connection con;
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		try {
+			con = ConnectionProvider.getConnection();
+		}catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String course = request.getParameter("course");		
+		Part filePart = request.getPart("notice");
+		String d = request.getParameter("date");
+		response.getWriter().print(d);
+	}
+
+}

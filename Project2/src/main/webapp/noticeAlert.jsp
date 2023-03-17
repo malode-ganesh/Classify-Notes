@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<%@include file="Bootstrap/Bootstrap.jsp" %>
+<title>Uploaded Successfully</title>
+</head>
+<body>
+<br><br><br>
+<%! String msg; %>
+<%msg =(String) request.getAttribute("msg"); %>
+<center>
+<h2 style="color:green;"><%=msg %></h2>
+<br><br>
+<button class="btn btn-sm btn-primary" value="Back" type="Button"
+					onclick="history.go(-1);">BACK</button>
+</center>
+</body>
+</html>

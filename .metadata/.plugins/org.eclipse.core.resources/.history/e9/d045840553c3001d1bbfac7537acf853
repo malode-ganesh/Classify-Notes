@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	var msg document.getElementById("msg").value;
+	alert(msg);
+</script>
+
+<%!
+	String msg;
+	
+%>
+<%msg = (String) request.getAttribute("msg"); %>
+<input type="text" hidden id="msg" value="<%=msg%>">
+</body>
+</html>

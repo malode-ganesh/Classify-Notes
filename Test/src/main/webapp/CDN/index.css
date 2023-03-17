@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.navbar-brand{
+	font-family: monospace serif;
+  font-size: 52px;
+  text-shadow: 4px 4px 4px;
+  font-weight: bold;
+  
+}
+
+.h-text{
+	font-size: 30px;
+}
+.hrLine{
+	color:white;
+}

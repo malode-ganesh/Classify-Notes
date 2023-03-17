@@ -1,0 +1,15 @@
+127.0.0.1 - - [12/Mar/2023:15:33:54 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:56 +0530] "GET /Project2/ HTTP/1.1" 200 6254
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/Bootstrap/js/popper.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/Bootstrap/js/bootstrap.bundle.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/Bootstrap/JQuery/jquery-3.2.1.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/Bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/img/logo.PNG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/css/login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:33:57 +0530] "GET /Project2/img/section-bg.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:34:00 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:36:09 +0530] "POST /Project2/login?email=malodeganesh5@gmail.com&pwd=devil HTTP/1.1" 404 906
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:37:13 +0530] "POST /Project2/stuDashboard.jsp HTTP/1.1" 200 18855
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:38:09 +0530] "POST /Project2/stuDashboard.jsp?email=malodeganesh5@gmail.com&pwd=devil HTTP/1.1" 200 18855
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:39:02 +0530] "GET /Project2/stuDashboard.jsp?email=malodeganesh5@gmail.com&pwd=devil HTTP/1.1" 200 18855
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:15:39:17 +0530] "GET /Project2/stuDashboard.jsp?email=malodeganesh5@gmail.com&pwd=devill HTTP/1.1" 200 5761
